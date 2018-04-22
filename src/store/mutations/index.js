@@ -62,10 +62,6 @@ export const productMutations = {
     state.products.splice(index, 1)
   },
   [ERROR_MSG] (state, payload) {},
-  increment(state){
-    state.showLoader = !state.showLoader
-    console.log(state.showLoader)
-  }
 }
 
 export const cartMutations = {
