@@ -14,9 +14,9 @@
             <tr v-for="product in products">
               <td>{{product.name}}</td>
               <td>${{product.price}}</td>
-              <td>{{product.manufacturer.name}}</td>
-              <td><router-link :to="'/admin/edit/'+product._id"><i class="fa fa-pencil-square-o"></i></router-link></td>
-              <td><a @click="deleteProduct(product._id)"><i class="fa fa-trash"></i></a></td>
+              <!-- <td>{{product.manufacturer.name}}</td> -->
+              <td><router-link :to="'/admin/edit/'+product.id"><i class="fa fa-pencil-square-o"></i></router-link></td>
+              <td><a @click="deleteProduct(product.id)"><i class="fa fa-trash"></i></a></td>
             </tr>
             </tbody>
           </table>

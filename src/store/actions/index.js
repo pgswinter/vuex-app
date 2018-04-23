@@ -38,7 +38,7 @@ export const productActions = {
 	},
 	updateProduct ({commit}, payload) {
 	    commit(UPDATE_PRODUCT)
-	    axios.put(`${API_BASE}/products/${payload._id}`, payload).then(response => {
+	    axios.put(`${API_BASE}/products/${payload.id}`, payload).then(response => {
 	      commit(UPDATE_PRODUCT_SUCCESS, response.data)
 	    })
 	},

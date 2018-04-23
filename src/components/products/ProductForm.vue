@@ -69,7 +69,7 @@
         <span class="small text-danger" v-show="errors.has('description')">Description is required</span>
       </div>
       <div class="form-group new-button">
-        <button class="button">
+        <button class="btn-style">
           <i class="fa fa-pencil"></i>
           <span v-if="isEditing">Update Product</span>
           <span v-else>Add Product</span>
