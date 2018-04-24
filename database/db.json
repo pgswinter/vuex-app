@@ -40,7 +40,19 @@
       "price": "342",
       "image": "http://www.brandsmartusa.com/images/product/large/20208018.jpg",
       "description": "sdasdas",
+      "manufacturer": {
+        "id": 2,
+        "name": "Sony"
+      },
       "id": 4
+    },
+    {
+      "manufacturer": 2,
+      "name": "John Doe",
+      "price": "888",
+      "image": "http://www.brandsmartusa.com/images/product/large/20222515.jpg",
+      "description": "Hello baby",
+      "id": 5
     }
   ],
   "manufacturers": [
